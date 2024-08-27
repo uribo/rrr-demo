@@ -1,0 +1,12 @@
+---
+title: "日本語を含んだPDF"
+format: 
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{zxjatype}
+        \usepackage[ipaex]{zxjafont}
+        \setmainfont{IPAexGothic}
+---
+
+YAMLフロントマターにいくつかのLaTeXパッケージを指定する。

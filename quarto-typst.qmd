@@ -1,0 +1,12 @@
+---
+title: "typstによる日本語PDFの出力"
+format: 
+  typst:
+    mainfont: "Noto Sans JP"
+---
+
+
+YAMLフロントマターで`format: typst`を指定したうえで、
+`mainfont`に任意の日本語フォント名を指定する。
+
+環境によっては`font-paths`でフォントのパスを指定する必要がある。
