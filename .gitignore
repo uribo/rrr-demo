@@ -6,3 +6,5 @@
 *_files/
 *.html
 *.pdf
+.ipynb_checkpoints
+*.quarto_ipynb

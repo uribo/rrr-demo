@@ -16,3 +16,7 @@ poetry add jupyter jupyterlab seaborn jupytext
 
 poetry run jupyter lab
 ```
+
+```bash
+poetry install --no-root
+```
