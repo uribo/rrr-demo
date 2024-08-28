@@ -9,3 +9,10 @@ git init
 ```r
 renv::init()
 ```
+
+```bash
+poetry init --python=3.12.5 
+poetry add jupyter jupyterlab seaborn jupytext
+
+poetry run jupyter lab
+```
