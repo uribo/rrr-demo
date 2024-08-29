@@ -11,3 +11,7 @@ format: html
 # Rのコード
 1 + 1
 ```
+
+```{r}
+plot(mtcars$mpg, mtcars$wt)
+```

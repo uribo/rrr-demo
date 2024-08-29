@@ -1,5 +1,7 @@
 ---
 title: "typstによる日本語PDFの出力"
+execute:
+  eval: false
 format: 
   typst:
     mainfont: "Noto Sans JP"
@@ -10,3 +12,29 @@ YAMLフロントマターで`format: typst`を指定したうえで、
 `mainfont`に任意の日本語フォント名を指定する。
 
 環境によっては`font-paths`でフォントのパスを指定する必要がある。
+
+= 見出し
+
+- 箇条書き
+- 箇条書き
+
+$p < 0.05$
+
+```{r}
+#| eval: true
+1 + 1
+```
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-width: 5
+#| fig-height: 5
+#| fig-cap: "グラフの描画"
+library(ggplot2)
+
+mtcars |> 
+  ggplot(aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "燃費と重量の関係")
+```
