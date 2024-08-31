@@ -8,3 +8,5 @@
 *.pdf
 .ipynb_checkpoints
 *.quarto_ipynb
+*.docx
+*.pptx

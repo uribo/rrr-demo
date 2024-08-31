@@ -15,3 +15,11 @@ format: html
 ```{r}
 plot(mtcars$mpg, mtcars$wt)
 ```
+
+::: {.callout-tip}
+
+formatを`html`から`docx`や`pptx`に変更してレンダーしてみましょう。
+
+参考）Quartoで出力利用可能な形式 <https://quarto.org/docs/output-formats/all-formats.html>
+
+:::
